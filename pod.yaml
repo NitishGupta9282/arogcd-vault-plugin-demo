@@ -8,7 +8,9 @@ spec:
     name: webapp
     env:
     - name: DB_PASSWORD
-      valueFrom:
-        secretKeyRef:
-          name: example-secret
-          key: password
+      value: <path:secret/data/credspassword>    
+    
+#       valueFrom:
+#         secretKeyRef:
+#           name: example-secret
+#           key: password
