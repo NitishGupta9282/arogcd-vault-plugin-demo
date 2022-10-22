@@ -8,11 +8,14 @@ spec:
     name: webapp
     env:
     - name: DB_PASSWORD
-      value: <path:secret/data/creds#password>   
+      value: password 
     - name: DB_USERNAME
-      value: <path:secret/data/avp#username> 
+      value: username
     
 #       valueFrom:
 #         secretKeyRef:
 #           name: example-secret
 #           key: password
+
+#value: <path:secret/data/creds#password> 
+#value: <path:secret/data/avp#username> 
