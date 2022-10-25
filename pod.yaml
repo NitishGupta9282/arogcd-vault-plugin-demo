@@ -8,7 +8,7 @@ spec:
     name: webapp
     envFrom:
     - secretRef:
-        name: test-secrets
+        name: example-secret
 #    env:
 #    - name: DB_PASSWORD
 #      value: <path:secret/data/creds#password | sha256sum>
