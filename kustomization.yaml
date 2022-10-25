@@ -9,5 +9,5 @@ secretGenerator:
 
 resources:
 - pod.yaml
-- example_secret.yaml
+
   
