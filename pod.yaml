@@ -16,5 +16,5 @@ spec:
 #           name: example-secret
 #           key: password
 
-#value: <path:secret/data/creds#password> 
-#value: <path:secret/data/avp#username> 
+#value: <path:secret/data/creds#password | sha256sum> 
+#value: <path:secret/data/avp#username | sha256sum> 
